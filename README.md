@@ -1,2 +1,2 @@
 # checkers
-A checkers game built in 
+A checkers game built in React with imported AI modules
