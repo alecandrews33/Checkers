@@ -1,0 +1,14 @@
+.gameBoard {
+    display: grid;
+    grid-template-columns: 20px 120px 120px 120px 120px 120px 120px 120px 120px 20px;
+    grid-template-rows: 20px 120px 120px 120px 120px 120px 120px 120px 120px 20px;
+    justify-content: center;
+}
+
+.blackTile {
+    background-color: #ffffff;
+}
+
+.whiteTile {
+    background-color: #000000;
+}
