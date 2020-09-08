@@ -1,14 +1,18 @@
 .gameBoard {
-    display: grid;
-    grid-template-columns: 20px 120px 120px 120px 120px 120px 120px 120px 120px 20px;
-    grid-template-rows: 20px 120px 120px 120px 120px 120px 120px 120px 120px 20px;
-    justify-content: center;
-}
-
-.blackTile {
-    background-color: #ffffff;
+    display: -moz-grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    /* justify-content: center; */
 }
 
 .whiteTile {
-    background-color: #000000;
+    color: #ffffff;
+    height: 1fr;
+    width: 1fr;
+}
+
+.blackTile {
+    color: #000000;
+    height: 1fr;
+    width: 1fr;
 }
